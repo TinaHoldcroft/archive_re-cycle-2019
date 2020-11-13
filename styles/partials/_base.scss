@@ -1,0 +1,39 @@
+@import url("https://use.typekit.net/dly4ncl.css");
+//font-family: suburban, sans-serif;
+//font-family: montserrat, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #EEEEEE;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: montserrat, sans-serif;
+    text-align: justify;
+    text-align-last: center;
+}
+::-webkit-scrollbar-thumb {
+    background: #d3d3d3;
+    border-radius: 3px; 
+}
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-thumb { border-radius: 30px; }
+::-webkit-scrollbar-thumb:hover { background: #bdbdbd; }
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.content-container {
+    background-color: #ffffff;
+    width: 80vw;
+    box-shadow: 4px 2px 16px rgba(136, 165, 191, 0.48);
+    margin-bottom: 10rem;
+}
